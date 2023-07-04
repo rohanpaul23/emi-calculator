@@ -1,9 +1,20 @@
+* {
+  font-family: auto;
+}
+* label {
+  font-size: 20px;
+}
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: darkslategrey;
+  box-shadow: 1px 1px 183px -19px rgba(0, 0, 0, 1) inset;
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 

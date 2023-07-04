@@ -1,0 +1,50 @@
+.emiCalc {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 820px;
+  border-radius: 1%;
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.fieldValue {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 2rem;
+}
+
+.rangeField {
+  width: 90%;
+  background: chocolate;
+  margin-bottom: 15px;
+}
+
+.emiDetails {
+  width: 50%;
+  margin-top: 1rem;
+}
+
+.breakdown {
+  display: flex;
+  flex-direction: row;
+}
+
+.pieChart {
+  padding: 20px;
+}
+
+.loan {
+  padding: 25px;
+  background: whitesmoke;
+  margin: 10px;
+  border: 2px solid #d8d8d8;
+  border: 5%;
+}
